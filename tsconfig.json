@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+		"outFile": "Builds/openuix.threejs.js",
+		"baseUrl": "Sources",
+        "target": "es5",
+        "module": "amd",
+        "sourceMap": true
+    }
+}
