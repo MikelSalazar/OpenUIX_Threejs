@@ -1,9 +1,18 @@
 {
-    "compilerOptions": {
-		"outFile": "Builds/openuix.threejs.js",
-		"baseUrl": "Sources",
-        "target": "es5",
-        "module": "amd",
-        "sourceMap": true
-    }
+	"compilerOptions": {
+		"module": "es2015",
+		"target": "es3",
+		"baseUrl": ".",
+		"rootDir": "Sources",
+		"outDir": "Builds/Temp",
+		// "outFile": "Builds/openuix.threejs.js",
+		"types":["three"],
+		"lib" : ["es2015", "es2015.iterable", "dom"],
+		"sourceMap": true,
+		"alwaysStrict" : true,
+	},
+	"include": [
+		"Sources/**/*"
+	],
+
 }
