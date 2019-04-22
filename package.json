@@ -1,9 +1,0 @@
-{
-	"dependencies": {
-		"@types/three": "^0.93.1",
-		"three": "^0.97.0"
-	},
-	"scripts": {
-		"build": "node Utilities/Build/build.js"
-	}
-}
